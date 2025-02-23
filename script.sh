@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd Desktop
+cd /home/ytca2025/Desktop
 mkdir $1
 cd $1
 touch introduce_yourself.py
