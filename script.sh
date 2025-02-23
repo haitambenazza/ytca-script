@@ -1,6 +1,14 @@
 #!/bin/bash
 
+if [ -z "$1" ]; then
+	echo "please enter your full name "
+	echo "./script prenom_nom"
+	exit 1
+fi
+
 cd $HOME/Desktop
+mkdir -p ytca_python
+cd ytca_python
 mkdir $1
 cd $1
 touch introduce_yourself.py
